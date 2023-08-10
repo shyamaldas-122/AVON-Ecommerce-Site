@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - AVON | Ecommerce Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+        <style>
+            .contact-us {
+                padding-top: 13%;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar fixed-top">
+
+            <div class="logo">
+                <a href="index.html"><img src="image2/avon.png" alt="Avon_logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a class="cart" href="cart.html"><img src="image2/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="image2/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+    <!-- <div class="design"> -->
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+            <h3>Home / Contact Us</h3>
+        </div>
+        <div class="contact-form">
+            <!-- <h3>GET IN TOUCH WITH US</h3> -->
+            <div class="row  left-info">
+                <!-- <div class="col-md-12">
+                <h3>GET IN TOUCH WITH US</h3>
+                </div> -->
+                <div class="col-md-6 cont-us">
+                    <h3 class="title2">GET IN TOUCH WITH US</h3>
+                    <form>
+                        <!-- <div class="row">
+                            <div class="col-md-6">
+                                <input class="input" type="text" name="" id="" placeholder="FIRST NAME" required>
+                                <input class="input" type="number" name="" id="" placeholder="PHONE NUMBER" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="input" type="text" name="" id="" placeholder="LAST NAME" required>
+                                <input class="input" type="email" name="" id="" placeholder="EMAIL ADDRESS" required>
+                            </div>
+                        </div> -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="input" type="text" name="" id="" placeholder="FIRST NAME" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="input last-name" type="text" name="" id="" placeholder="LAST NAME" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="input" type="tel" name="" id="" placeholder="PHONE NUMBER" minlength="10" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="input email" type="email" name="" id="" placeholder="EMAIL ADDRESS" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea class="form-control" placeholder="MESSAGE" id="con_message" name="con_message"
+                                required></textarea>
+                        </div>
+                        <div class="row">
+                            <button class="submit" type="submit">SEND MESSAGE &#160;&#160;&#x276F;</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="col-md-6 details">
+                    <div class="contact-details">
+                        <div class="row con">
+                            <div class="col-md-6">
+                                <img class="map-img" src="image2/map.png" alt="" width="50px">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="address">Bangalore, Karnataka. <br>pin:-560037</p>
+                            </div>
+                        </div>
+                        <div class="row con">
+                            <div class="col-md-6">
+                                <img class="phone-img" src="image2/smartphone.png" alt="" width="50px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="phone">Phone:-</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="number">8xxxxxxxxx</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row con">
+                            <div class="col-md-6">
+                                <img class="mail-img" src="image2/gmail.png" alt="" width="50px">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="mail">amitdas1228@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15552.649795100722!2d77.71086795!3d12.96145485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1691595264797!5m2!1sen!2sin"  width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- <div class="row">
+        <div class="col-lg-6">
+           
+            <form action="#" method="post" id="contact_form" class="waituk_contact-form">
+                <div class="row">
+                    <div class="col">
+                       
+                            <input type="text" placeholder="FIRST NAME *" id="con_fname" name="con_fname" class="form-control">
+                        
+                    </div>
+                    <div class="col">
+                        
+                            <input type="text" placeholder="LAST NAME *" id="con_lname" name="con_lname" class="form-control">
+                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                       
+                            <input type="tel" placeholder="PHONE NUMBER" id="con_phone" name="con_phone" class="form-control">
+                        
+                    </div>
+                    <div class="col">
+                        
+                            <input type="email" placeholder="EMAIL ADDRESS *" id="con_email" name="con_email" class="form-control">
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="MESSAGE *" id="con_message" name="con_message"></textarea>
+                </div>
+                <div class="btn-container">
+                    <button id="btn_sent" class="btn btn-primary btn-arrow">SEND MESSAGE</button>
+                    <p id="error_message"> </p>
+                </div>
+            </form>
+        </div> -->
+
+    <!----------Footer---------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="image2/play-store.png" alt="">
+                        <img src="image2/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="image2/avon.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure <br> ans
+                        Benefits of Fashion to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>JoinAffilate</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fab  fa-facebook-square"></i> <a class="footer-link"
+                            href="https://www.facebook.com/profile.php?id=100009886246542"
+                            target="_blank">Facebook</a></li>
+                    <li><i class="fab  fa-twitter-square"></i> <a class="footer-link"
+                            href="https://twitter.com/Shyamal64118629?s=08" target="_blank">Twitter</a></li>
+                    <li><i class="fab  fa-instagram"></i> <a class="footer-link"
+                            href="https://www.instagram.com/ig_shyamal_/" target="_blank">Instagram</a></li>
+                    <li><i class="fab  fa-linkedin"></i> <a class="footer-link"
+                            href="https://www.linkedin.com/in/shyamal-das-534a461ab/" target="_blank">Linkdin</a>
+                    </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">© Copyright 2023 AVON , Inc. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!----------------ja for toogle menu----------------->
+    <script>
+        var MenuItems = document.getElementById("menu-items");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

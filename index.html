@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVON | Ecommerce Site</title>
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrapmin.css">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Js & Jquary -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="navbar fixed-top">
+        <!-- Company Logo -->
+        <div class="logo">
+            <a href="index.html"><img src="image2/avon.png" alt="Avon_logo" width="125px"></a>
+        </div>
+        <nav class="stroke">
+            <ul id="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a class="cart" href="cart.html"><img src="image2/cart.png" alt="" width="30px" height="30px"></a>
+        <img src="image2/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+    </div>
+
+    <div class="header">
+
+
+        <div class="container">
+
+            <div class="row left">
+                <div class="col-2 ">
+                    <h1>Give Your Life <br> A New Style!</h1>
+                    <p>If you love something, wear it all the time... Find things that suit you. That's how you look
+                        extraordinary.</p>
+                    <a href="" class="btn">Explore Now &#x279F;</a>
+                </div>
+                <div class="col-2">
+                    <img src="image/6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="header">
+        <div class="container">
+            <div class="navbar fixed-top">
+                Company Logo
+                <div class="logo">
+                    <a href="index.html"><img src="image2/avon.png" alt="Avon_logo" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a class="cart" href="cart.html"><img src="image2/cart.png" alt="" width="30px" height="30px"></a>
+                <img src="image2/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+            </div>
+            <div class="row left">
+                <div class="col-2 ">
+                    <h1>Give Your Life <br> A New Style!</h1>
+                    <p>If you love something, wear it all the time... Find things that suit you. That's how you look
+                        extraordinary.</p>
+                    <a href="" class="btn">Explore Now &#x279F;</a>
+                </div>
+                <div class="col-2">
+                    <img src="image/6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!----Featured Catagories------>
+    <!-- <div class="catagories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="image2/category-5.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="image2/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="image2/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="catagories">
+        <div class="small-container">
+            <div class="row">
+                <div class="content col">
+                    <!-- <a href=""> -->
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="image2/category-5.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Best Watches</h3>
+                        <div class="button_cont" align="center"><a class="example_e" href="Category 1.html"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                    <!-- </a> -->
+                </div>
+                <div class="content col">
+                    <!-- <a href=""> -->
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="image2/category-10.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Extreme Rare Sneakers</h3>
+                        <div class="button_cont" align="center"><a class="example_e" href="Category 2.html"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                    <!-- </a> -->
+                </div>
+                <div class="content col">
+                    <!-- <a href=""> -->
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="image2/category-3.jpg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Best Hoodie</h3>
+                        <div class="button_cont" align="center"><a class="example_e" href="Category 3.html"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="con small-container">
+
+        <div class="content col">
+            <a href="" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="image2/category-5.png">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Best Watches</h3>
+                    <div class="button_cont" align="center"><a class="example_e" href="add-website-here" target="_blank"
+                            rel="nofollow noopener">Shop Now</a></div>
+                </div>
+            </a>
+        </div>
+        <div class="content col">
+            <a href="" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="image2/category-2.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Extreme Rare Sneakers</h3>
+                    <div class="button_cont" align="center"><a class="example_e" href="add-website-here" target="_blank"
+                            rel="nofollow noopener">Shop Now</a></div>
+                </div>
+            </a>
+        </div>
+        <div class="content col">
+            <a href="" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="image2/category-3.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Best Jacket</h3>
+                    <div class="button_cont" align="center"><a class="example_e" href="add-website-here" target="_blank"
+                            rel="nofollow noopener">Shop Now</a></div>
+                </div>
+            </a>
+        </div>
+
+    </div> -->
+
+    <!-- <div class="catagories">
+        <div class="small-container">
+            <div class="row">
+                <div class="one col">
+                   
+                    <img src="image2/category-5.png" alt="">
+                    
+                    <div class="detail1">
+                        <h2>Best Watches</h2>
+                        <button type="button" class="btn-2 btn-dark">Shop Now</button>
+                        <div class="button_cont" align="center"><a class="example_e" href="add-website-here"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                </div>
+
+                <div class="one col">
+                   
+                    <img src="image2/category-2.jpg" alt="">
+                   
+                    <div class="detail2">
+                        <h2>Extreme Rare Sneakers</h2>
+                        <button type="button" class="btn-2 btn-dark">Shop Now</button>
+                        <div class="button_cont" align="center"><a class="example_e" href="add-website-here"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                </div>
+
+                <div class="one col">
+                    
+                    <img src="image2/category-3.jpg" alt="">
+                    
+                    <div class="detail3">
+                        <h2>Best Jacket</h2>
+                        <button type="button" class="btn-2 btn-dark">Shop Now</button>
+                        <div class="button_cont" align="center"><a class="example_e" href="add-website-here"
+                                target="_blank" rel="nofollow noopener">Shop Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!----------------special offers------------------->
+    <!-- <div class="special-offers">
+       
+        <h2 class="title">-SPECIAL OFFERS-</h2>
+        <a href="special-offer 1.html">
+
+            <section id="special-offers">
+
+            </section>
+           
+        </a>
+
+    </div>     -->
+    <h2 class="title">-SPECIAL OFFERS-</h2>
+    <img src="image2/IMAGE 1.png" alt="Nature" class="responsive">
+
+    <!-- <a href="Banner Product-detail.html">
+
+            <section id="special-offers2">
+               
+            </section>
+           
+        </a>
+
+        <a href="Banner Product-detail.html">
+
+            <section id="special-offers3">
+               
+            </section>
+            
+        </a>
+
+        <a href="Banner Product-detail.html">
+
+            <section id="special-offers4">
+               
+            </section>
+           
+        </a> -->
+
+
+
+    <!--------------------First Carousal-------------------------->
+
+    <!-- <div id="slider">
+        <figure>
+            <img src="image2/IMAGE 2.png" alt>
+            <img src="image2/IMAGE 3.png" alt>
+            <img src="image2/IMAGE 4.png" alt>
+            <img src="image2/IMAGE 5.png" alt>
+        </figure>
+    </div> -->
+
+    <h2 class="title">BUDGET STORE</h2>
+
+    <section id="testimonials">
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+                <li data-target="#carouselExample" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="budget-store 1.html"> <img class="d-block w-100 responsive2" src="image2/IMAGE 2.png"
+                            alt="First slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 responsive2" src="image2/IMAGE 3.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 responsive2" src="image2/IMAGE 4.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 responsive2" src="image2/IMAGE 5.png" alt="Forth slide">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+
+
+    <!-- <h2 class="title">BUDGET STORE</h2>
+
+    <section id="testimonials">
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+                <li data-target="#carouselExample" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="budget-store 1.html"> <img class="d-block w-100" src="image2/IMAGE 2.png"
+                            alt="First slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/IMAGE 3.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/IMAGE 4.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/IMAGE 5.png" alt="Forth slide">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section> -->
+
+    <!-- <section id="testimonials">
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousal">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+                <li data-target="#carouselExample" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <a href="budget-store 1.html"><img class="d-block w-100" src="image2/IMAGE 2.png" alt=""></a>
+
+                </div>
+                <div class="carousel-item">
+
+                    <img class="d-block w-100" src="image2/IMAGE 3.png" alt="">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img class="d-block w-100" src="image2/IMAGE 4.png" alt="">
+
+                </div>
+                <div class="carousel-item">
+
+                    <img class="d-block w-100" src="image2/IMAGE 5.png" alt="">
+
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section> -->
+
+    <!----Featured products------>
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row Products">
+            <div class="col-4">
+                <a href="Fp-1 Product-detail.html"><img src="image2/fp blazer 1.png" alt=""></a>
+                <a href="Fp-1 Product-detail.html">
+                    <h4>Light Blue Casual Blazer</h4>
+                </a>
+
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 2000</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="Fp-2 Product-detail.html"><img src="image2/fp sunglass 1.jpg" alt=""></a>
+                <a href="Fp-2 Product-detail.html">
+                    <h4>UV Protected Shield Sunglasses</h4>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 500</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="product-detail.html"><img src="image2/product-1.jpg" alt=""></a>
+                <a href="product-detail.html">
+                    <h4>Red Printed slim T-shirts</h4>
+                </a>
+                <!-- <h4>Red Printed T-shirts</h4> -->
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 350</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="Fp-4 Product-detail.html"><img src="image2/hrx shoe 1.jpg" alt=""></a>
+                <a href="Fp-4 Product-detail.html">
+                    <h4>Women Red Runner Shoes</h4>
+                </a>
+                <!-- <img src="image2/hrx shoe 1.jpg" alt="">
+                <h4>Blue T-shirts</h4> -->
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 2000</h4>
+            </div>
+
+
+            <div class="col-4">
+                <a href="Fp-5 Product-detail.html"><img src="image2/gucci shirt 1.png" alt=""></a>
+                <a href="Fp-5 Product-detail.html">
+                    <h4>Gucci Logo Print Cotton T-shirt</h4>
+                </a>
+                <!-- <h4>Red Printed T-shirts</h4> -->
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 1249</h4>
+            </div>
+        </div>
+
+        <div class="row Products">
+            <div class="col-4">
+                <a href="Fp-6 Product-detail.html"><img src="image2/fp denim tshirt 1.png" alt=""></a>
+                <a href="Fp-6 Product-detail.html">
+                    <h4>Men Blue Solid Denim Jacket</h4>
+                </a>
+                <!-- <h4>Red Printed T-shirts</h4> -->
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 1199</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="product-detail3.html"><img src="image2/gucci shoe 1.png" alt=""></a>
+                <a href="product-detail3.html">
+                    <h4>New Ace Leather Sneakers</h4>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 57650</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="Fp-8 Product-detail.html"><img src="image2/fp pant 1.png" alt=""></a>
+                <a href="">
+                    <h4>Printed Trousers</h4>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                </div>
+                <!-- <p>$100.00</p> -->
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 1899</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="Fp-9 Product-detail.html"><img src="image2/fp 1.png" alt=""></a>
+                <a href="Fp-9 Product-detail.html">
+                    <h4>Unisex Analogue Watch</h4>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <!-- <p>$200.00</p> -->
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 2500</h4>
+            </div>
+
+            <div class="col-4">
+                <a href="product-detail2.html"><img src="image2/gucci leather shoe 1.png" alt=""></a>
+                <a href="product-detail2.html">
+                    <h4>Jordaan HorseBit Leather Loafers</h4>
+                </a>
+                <!-- <h4>Red Printed T-shirts</h4> -->
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 3500</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <!--------------Banner--------------->
+    <!-- <a href="Banner Product-detail.html">
+        <section id="banner" class="banner-style">
+
+        </section>
+    </a> -->
+
+    <section id="banner" class="banner-style">
+
+        <div class="container2">
+            <h4>PRODUCT OF THE DAY</h4>
+            <h1 class="banner-font">CASIO <br>
+                <i class="fas fa-rupee-sign fa-sm"></i> 7696/- MRP <del>10995</del> (30% Off)
+            </h1>
+            <!-- <div class="button_cont" align="center"><a class="example_banner" href="Category 1.html" target="_blank"
+                rel="nofollow noopener">Shop Now</a></div> -->
+            <div class="button_cont2" align="center"><a class="example_a" href="Banner Product-detail.html"
+                    target="_blank" rel="nofollow noopener">Shop Now</a></div>
+        </div>
+
+    </section>
+
+
+
+    <!-------------------Explore Top Brands---------------------->
+    <div class="brands-container">
+        <h2 class="title">Explore Top Brands</h2>
+        <div class="row Products2">
+
+            <div class="col-5B">
+                <a href="Top-brand1.html"><img src="image2/Top Brands 1.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand2.html"><img src="image2/Top Brands 2.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand3.html"><img src="image2/Top Brands 3.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand4.html"><img src="image2/Top Brands 4.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand5.html"><img src="image2/Top Brands 5.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="row Products3">
+
+            <div class="col-5B">
+                <a href="Top-brand6.html"><img src="image2/Top Brands 6.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand7.html"><img src="image2/Top Brands 7.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand8.html"><img src="image2/Top Brands 8.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand9.html"><img src="image2/Top Brands 16.png" alt=""></a>
+            </div>
+            <div class="col-5B">
+                <a href="Top-brand10.html"><img src="image2/Top Brands 10.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---------------------Trending Products----------------------------->
+    <div class="small-container">
+        <h2 class="title">Trending Products</h2>
+        <div class="row Products2">
+            <div class="col-5B">
+                <a href="Trending Product 1.html"><img src="image2/Trending Products 1.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 2.html"><img src="image2/Trending Products 2.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 3.html"><img src="image2/Trending Products 6.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 4.html"><img src="image2/Trending Products 8.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 5.html"><img src="image2/Trending Products 12.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="row Products3">
+            <div class="col-5B">
+                <a href="Trending Product 6.html"><img src="image2/Trending Products 5.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 7.html"><img src="image2/Trending Products 7.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 8.html"><img src="image2/Trending Products 13.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 9.html"><img src="image2/Trending Products 9.png" alt=""></a>
+            </div>
+
+            <div class="col-5B">
+                <a href="Trending Product 10.html"><img src="image2/Trending Products 3.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!------------------carousel--------------------->
+
+    <section id="testimonials">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="image2/IMAGE 6.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image2/IMAGE 7.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image2/IMAGE 8.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image2/IMAGE 9.png" alt="Forth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- <section id="testimonials">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="image2/PicsArt carousal 1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/PicsArt carousal 2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/PicsArt carousal 3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image2/PicsArt carousal 4.jpg" alt="Forth slide">
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section> -->
+
+    <div class="small-container">
+        <!--Latest Products-->
+        <h2 class="title">Latest Products</h2>
+
+        <div class="row Products">
+            <div class="col-4">
+                <img src="image2/product-5.jpg" alt="">
+                <h4>Red Printed T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 500</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-6.jpg" alt="">
+                <h4>HRX-shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 250</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-7.jpg" alt="">
+                <h4>Red Printed T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 499</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-8.jpg" alt="">
+                <h4>Blue T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 699</h4>
+            </div>
+
+        </div>
+
+        <div class="row Products">
+            <div class="col-4">
+                <img src="image2/product-9.jpg" alt="">
+                <h4>Red Printed T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 650</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-10.jpg" alt="">
+                <h4>HRX-shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 850</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-11.jpg" alt="">
+                <h4>Red Printed T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 999</h4>
+            </div>
+
+            <div class="col-4">
+                <img src="image2/product-12.jpg" alt="">
+                <h4>Blue T-shirts</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4><i class="fas fa-rupee-sign fa-sm"></i> 799</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!----------Offer--------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="image2/exclusive.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on My Store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 times your different sleep cycles -
+                        light, deep and sleep quality. This provides
+                        a comprehensive sleep analysis, so you can change your
+                        sleeping behaviour as needed.</small>
+                    <br>
+                    <a href="mi band.html" class="btn mi-btn">Buy Now &#x279F;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------Testimonial-------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>This website is very good for shopping from India. I have ordered more than 100 products.
+                        Timely
+                        delivery and good customer service.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="image2/user-1.png" alt="">
+                    <h3>Elisa Cinelli</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>The best online shopping store it provides quality plus quantity in any products categories
+                        or
+                        electronic items it provides good products.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="image2/man2.jpg" alt="">
+                    <h3>John Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I'ma regular customer of AVON from few years.
+                        I think it may poor quality. But after my 1st purchase I became a regular customer of AVON.
+                    </p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="image2/lady-img.jpg" alt="">
+                    <h3>L. Elizabeth Forry</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------Brands--------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="image2/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="image2/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="image2/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="image2/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="image2/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------Footer---------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="image2/play-store.png" alt="">
+                        <img src="image2/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="image2/avon.png" alt="">
+                    <p class="logo-p">Our Purpose Is To Sustainably Make the Pleasure <br> ans
+                        Benefits of Fashion to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>JoinAffilate</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <!-- <li><i class="fab  fa-facebook-square"></i><a
+                                href="https://www.facebook.com/people/Shyamal-Das/100009886246542"></a> Facebook
+                        </li>
+                        <li><i class="fab  fa-twitter-square"></i><a
+                                href="https://twitter.com/Shyamal64118629?s=08"></a> Twitter</li>
+                        <li><i class="fab  fa-instagram"></i><a href="https://www.instagram.com/ig_shyamal_/"></a>
+                            Instagram</li>
+                        <li><i class="fab  fa-linkedin"></i><a
+                                href="https://www.linkedin.com/in/shyamal-das-534a461ab/"></a> Linkdin</li> -->
+
+                        <li><i class="fab  fa-facebook-square"></i> <a class="footer-link"
+                                href="https://www.facebook.com/profile.php?id=100009886246542"
+                                target="_blank">Facebook</a></li>
+                        <li><i class="fab  fa-twitter-square"></i> <a class="footer-link"
+                                href="https://twitter.com/Shyamal64118629?s=08" target="_blank">Twitter</a></li>
+                        <li><i class="fab  fa-instagram"></i> <a class="footer-link"
+                                href="https://www.instagram.com/ig_shyamal_/" target="_blank">Instagram</a></li>
+                        <li><i class="fab  fa-linkedin"></i> <a class="footer-link"
+                                href="https://www.linkedin.com/in/shyamal-das-534a461ab/" target="_blank">Linkdin</a>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+            <!-- <p class="copyright" >Copyright 2021 - Shyamal Das</p> -->
+            <p class="copyright">
+            <p class="copyright">© Copyright 2023 AVON , Inc. All rights reserved.</p>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
+    <!----------------ja for toogle menu----------------->
+    <script>
+        var MenuItems = document.getElementById("menu-items");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
